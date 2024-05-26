@@ -1,0 +1,42 @@
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	padding: 0;
+	margin: 0;
+	display: grid;
+	place-items: center;
+	background-color: black;
+}
+
+h1, p, a {
+	font-family: Courier, monospace;
+	color: white;
+}
+
+.vertical_center {
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+input {
+	display: block;
+	margin : auto;
+	margin-top: 0;
+}
+
+.credits {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	margin: 2vmin;
+	background-color: black;
+}
