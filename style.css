@@ -21,6 +21,11 @@ h1, p, a {
 	transform: translateY(-50%);
 }
 
+@-moz-document url-prefix() {
+	.vertical_center {
+		top: 50%;
+	}
+}
 h1 {
 	text-align: center;
 	margin-bottom: 0;
